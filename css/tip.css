@@ -15,7 +15,7 @@ body { background-color: #393939; }
     display: inline-block;
     zoom: 1;
     vertical-align: baseline;
-    margin: 0 2px;
+    margin: 5px 2px;
     outline: none;
     cursor: pointer;
     text-align: center;
@@ -42,6 +42,5 @@ body { background-color: #393939; }
     padding: .4em 1.5em .42em;
 }
 #tip footer nav {
-    margin: 5px 0 0 0;
     text-align: right;
 }
