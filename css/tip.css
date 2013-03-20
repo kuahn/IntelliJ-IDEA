@@ -4,7 +4,7 @@ body { background-color: #393939; }
     -webkit-box-shadow:2px 2px 10px 0px #181818;
     box-shadow:2px 2px 10px 0px #181818;
 }
-#tip header { background: url("img/question.png") no-repeat; font-size: 1.1em; padding: 7px 0 8px 37px; }
+#tip header { background: url("/img/question.png") no-repeat; font-size: 1.1em; padding: 7px 0 8px 37px; }
 #tip section {  background-color: #585B5C; color: #C3C8C8; border: 1px solid #353638; padding: 10px; min-height: 200px; overflow: scroll;}
 #tip footer { margin:5px 0 0 0; font-size: 0.8em; }
 #tip footer a {

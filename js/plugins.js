@@ -41,6 +41,6 @@
 
         // #tip adjust iphone size
         document.getElementById("tip").style.margin = '2% 4%';
-        document.getElementsByClassName("button").style.padding = '.5em 1em .55em';
+        document.getElementsByClassName("medium").style.padding = '.4em 1em .42em';
     }
 }());
