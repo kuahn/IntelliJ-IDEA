@@ -7,6 +7,7 @@ if (navigator.userAgent.match(/iPhone/i)) {
     }
   }
   document.addEventListener("gesturestart", gestureStart, false);
+  document.getElementById("tip").style.margin = '1% 2%';
 }
 function gestureStart() {
   for (i=0; i<metas.length; i++) {
