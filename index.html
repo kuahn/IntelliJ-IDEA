@@ -17,30 +17,75 @@
     <script src="js/vendor/modernizr-2.6.2.min.js"></script>
 </head>
 <body><!--[if lt IE 7]><p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p><![endif]-->
+    <div id="tip">
+        <header>Did you know ... ?</header>
+        <section id="content"></section>
+        <footer>
+            <input type="checkbox" value="Y" name="latestTipShow"/> Show Latest Tip on Startup
+            <nav>
+                <a href="#" class="button gray medium" id="close">Close</a> <a href="#" class="button gray medium" id="previousTip">Previous Tip</a> <a href="#" class="button gray medium" id="nextTip">Next Tip</a>
+            </nav>
+        </footer>
+    </div>
 
-<div id="tip">
-    <header>Did you know ... ?</header>
-    <section>
-        You can view all statements within the method where certain exceptions can be brought. Just place the caret at the throws keyword in a method declaration, press ⇧⌘F7 and select the desired exception class from the list. This will also work for try and catch.<br/>
-        <img src="img/2013-03-19_14-27-34.jpg"/>
-    </section>
-    <footer>
-        <input type="checkbox" value="Y" name="latestTipShow"/> Show Latest Tip on Startup
-        <nav>
-            <a href="#" class="button gray medium" name="close">Close</a> <a href="#" class="button gray medium" name="previousTip">Previous Tip</a> <a href="#" class="button gray medium" name="nextTip">Next Tip</a>
-        </nav>
-    </footer>
-</div>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        function showTip(tipNum) {
+            var num = tipNum || 1;
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
-<script src="js/plugins.js"></script>
-<script src="js/main.js"></script>
-<script>
-    var _gaq=[['_setAccount','UA-39404262-1'],['_trackPageview']];
-    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-        g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-        s.parentNode.insertBefore(g,s)}(document,'script'));
-</script>
+            $.ajax({
+                url: "model/tip"+ num +".json",
+                dataType: "json"
+            }).done(function (data) {
+                var tip = data.tip || "Error"
+                ,   imgs = data.imgs || []
+                ,   id = data.id || ""
+                ,   conts = undefined
+                ,   img
+                ,   src
+                ,   i
+                ,   ln;
+
+                for ( i = 0, ln = imgs.length; i < ln; i++ ) {
+                    img = imgs[i];
+
+                    if ( typeof img != 'string' ) {
+                        src = img.src;
+                    }
+                    conts += '<br/><img src="'+ src +'"/>';
+                }
+
+                $('#content')
+                    .text(tip)
+                    .append(conts)
+                    .attr('data-tipId',id);
+            }).error(function () {
+                alert('error');
+            });
+        }
+
+        $('#nextTip').bind('click', function() {
+            var id = (parseInt($('#content').attr('data-tipId'), 10)) + 1;
+            showTip(id);
+        });
+
+        $('#previousTip').bind('click', function() {
+            var id = (parseInt($('#content').attr('data-tipId'), 10)) - 1;
+            showTip(id);
+        });
+
+        (function () {
+            showTip();
+        }());
+    </script>
+    <script>
+        var _gaq=[['_setAccount','UA-39404262-1'],['_trackPageview']];
+        (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g,s)}(document,'script'));
+    </script>
 </body>
 </html>
