@@ -24,7 +24,7 @@ var tip = {
                     nl = (img.nl === false ? "" : "<br/>");
                 }
 
-                conts += nl + '<img src="'+ src +'"/>';
+                conts += '<img src="'+ src +'"/>' + nl;
             }
 
             $('#content').text(tip).append("<br/>"+conts).attr('data-tipId',id);
