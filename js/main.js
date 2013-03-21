@@ -6,7 +6,7 @@ var tip = {
             url: "model/tip"+ num +".json",
             dataType: "json"
         }).done(function (data) {
-            var tip = data.tip+"<br/>" || "Error"
+            var tip = data.tip || "Error"
             ,   imgs = data.imgs || []
             ,   id = data.id || ""
             ,   conts = ""
@@ -27,7 +27,7 @@ var tip = {
                 conts += nl + '<img src="'+ src +'"/>';
             }
 
-            $('#content').text(tip).append(conts).attr('data-tipId',id);
+            $('#content').text(tip).append("<br/>"+conts).attr('data-tipId',id);
 
         }).error(function () {
             tip.showTip();
