@@ -1,11 +1,14 @@
 {
-    "tip": "You can view all statements within the method where certain exceptions can be brought. Just place the caret at the throws keyword in a method declaration, press F7 and select the desired exception class from the list. This will also work for try and catch.",
+    "tip": "번역된 인텔리제이 팁을 제공합니다.",
     "imgs": [
         {
-            "src": "img/2013-03-19_14-27-34.jpg"
+            "src": "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-ash4/c12.12.160.160/268873_2195147000489_4286237_n.jpg"
         },
         {
-            "src": "img/2013-03-19_14-27-34.jpg"
+            "src": "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-prn1/c90.0.540.540/s160x160/28526_1475519092162_7794048_n.jpg"
+        },
+        {
+            "src": "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-prn1/s160x160/11258_100956213262489_7322806_a.jpg"
         }
     ],
     "id": "1" ,

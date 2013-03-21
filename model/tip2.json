@@ -1,5 +1,5 @@
 {
-    "tip": "2번째 팁.",
+    "tip": "You can view all statements within the method where certain exceptions can be brought. Just place the caret at the throws keyword in a method declaration, press F7 and select the desired exception class from the list. This will also work for try and catch.",
     "imgs": [
         {
             "src": "img/2013-03-19_14-27-34.jpg"
