@@ -40,7 +40,7 @@
         document.addEventListener("gesturestart", gestureStart, false);
 
         // #tip adjust iphone size
-        $('#tip').css('margin','2% 4%');
+        $('#tip').css('margin','0 4% 4% 4%');
         $('.medium').css('padding','.4em 1em .42em');
     }
 }());
