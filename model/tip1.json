@@ -2,13 +2,17 @@
     "tip": "번역된 인텔리제이 팁을 제공합니다.",
     "imgs": [
         {
-            "src": "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-ash4/c12.12.160.160/268873_2195147000489_4286237_n.jpg"
+            "src": "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-ash4/c12.12.160.160/268873_2195147000489_4286237_n.jpg",
+            "nl":false
         },
         {
-            "src": "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-prn1/c90.0.540.540/s160x160/28526_1475519092162_7794048_n.jpg"
+            "src": "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-prn1/c90.0.540.540/s160x160/28526_1475519092162_7794048_n.jpg",
+            "nl":false
+
         },
         {
-            "src": "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-prn1/s160x160/11258_100956213262489_7322806_a.jpg"
+            "src": "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-prn1/s160x160/11258_100956213262489_7322806_a.jpg",
+            "nl":false
         }
     ],
     "id": "1" ,

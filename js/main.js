@@ -12,6 +12,7 @@ var tip = {
             ,   conts = ""
             ,   img
             ,   src
+            ,   nl
             ,   i
             ,   ln;
 
@@ -20,8 +21,10 @@ var tip = {
 
                 if ( typeof img != 'string' ) {
                     src = img.src;
+                    nl = (img.nl === false ? "" : "<br/>");
                 }
-                conts += '<br/><img src="'+ src +'"/>';
+
+                conts += nl + '<img src="'+ src +'"/>';
             }
 
             $('#content').text(tip).append(conts).attr('data-tipId',id);
