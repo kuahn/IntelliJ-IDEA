@@ -1,18 +1,9 @@
 {
-    "tip": "번역된 인텔리제이 팁을 제공합니다.",
+    "tip": "이미지 파일 이름 자동완성을 위해 HTML, CSS 나 여타 파일에서 기본 자동완성 (⌃␣) 을 이용하세요.",
+    "org" : "Use Basic Completion  within HTML, CSS and other files, for completing image file names.",
     "imgs": [
         {
-            "src": "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-ash4/c12.12.160.160/268873_2195147000489_4286237_n.jpg",
-            "nl":false
-        },
-        {
-            "src": "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-prn1/c90.0.540.540/s160x160/28526_1475519092162_7794048_n.jpg",
-            "nl":false
-
-        },
-        {
-            "src": "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-prn1/s160x160/11258_100956213262489_7322806_a.jpg",
-            "nl":false
+            "src": "img/2013-03-22_10-51-35.png"
         }
     ],
     "class" : "edit"
