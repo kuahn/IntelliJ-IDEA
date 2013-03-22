@@ -1,5 +1,5 @@
 {
-    "tip": "5번째 팁.",
+    "tip": "To quickly select the currently edited element (class, file, method or field) in any view (Project view, Structure view or other), press ⌥F1 (View | Select In).",
     "imgs": [
         {
             "src": "img/2013-03-19_14-27-34.jpg"
