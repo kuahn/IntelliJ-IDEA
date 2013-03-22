@@ -27,7 +27,7 @@ var tip = {
                 conts += '<img src="'+ src +'"/>' + nl;
             }
 
-            $('#content').text(tip).append("<br/>"+conts).attr('data-tipId',id);
+            $('#content').text(tip).append("<br/>"+conts).attr('data-tipId',num);
 
         }).error(function () {
             tip.showTip();
