@@ -7,8 +7,8 @@ var tip = {
             dataType: "json"
         }).done(function (data) {
             var tip = data.tip || "Error"
+            ,   org = data.org
             ,   imgs = data.imgs || []
-            ,   id = data.id || ""
             ,   conts = ""
             ,   img
             ,   src
@@ -27,7 +27,13 @@ var tip = {
                 conts += '<img src="'+ src +'"/>' + nl;
             }
 
-            $('#content').text(tip).append("<br/>"+conts).attr('data-tipId',num);
+            if ( org ) {
+                org = " (" + org + ")";
+            } else {
+                org = "";
+            }
+
+            $('#content').text(tip).append(org).append("<br/>" + conts).attr('data-tipId',num);
 
         }).error(function () {
             tip.showTip();
