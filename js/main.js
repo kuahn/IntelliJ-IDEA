@@ -28,9 +28,9 @@ var tip = {
             }
 
             if ( org ) {
-                org = " (" + org + ")";
+                org = '<span id="org">(' + org + ')</span>';
             } else {
-                org = "";
+                org = '';
             }
 
             $('#content').text(tip).append(org).append("<br/>" + conts).attr('data-tipId',num);
