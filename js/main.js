@@ -6,7 +6,7 @@ var tip = {
             url: "model/tip"+ num +".json",
             dataType: "json"
         }).done(function (data) {
-            var tip = data.tip || "Error"
+            var tip = data.tip || ""
             ,   org = data.org
             ,   imgs = data.imgs || []
             ,   conts = ""
