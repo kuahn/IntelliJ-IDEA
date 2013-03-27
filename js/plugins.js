@@ -1,12 +1,4 @@
 (function() {
-    function write(content) {
-        document.write(content);
-    }
-
-    function meta(name, content) {
-        write('<meta name="' + name + '" content="' + content + '">');
-    }
-
     function gestureStart() {
         for (i=0; i<metas.length; i++) {
             if (metas[i].name == "viewport") {
@@ -43,9 +35,6 @@
                 metas[i].content = "width=device-width, minimum-scale=1.0, maximum-scale=1.0";
             }
         }
-
-        meta('apple-mobile-web-app-capable', 'yes');
-        meta('apple-touch-fullscreen', 'yes');
 
         document.addEventListener("gesturestart", gestureStart, false);
 
