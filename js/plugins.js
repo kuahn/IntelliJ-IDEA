@@ -32,7 +32,7 @@
     if ( navigator.userAgent.match(/(iPad|iPhone|iPod)/i) ) {
         for ( i=0; i<metas.length; i++ ) {
             if (metas[i].name == "viewport") {
-                metas[i].content = "width=device-width, minimum-scale=1.0, maximum-scale=1.0";
+                metas[i].content = "initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no";
             }
         }
 
