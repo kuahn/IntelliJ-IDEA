@@ -1,5 +1,20 @@
-// Avoid `console` errors in browsers that lack a console.
 (function() {
+    function write(content) {
+        document.write(content);
+    }
+
+    function meta(name, content) {
+        write('<meta name="' + name + '" content="' + content + '">');
+    }
+
+    function gestureStart() {
+        for (i=0; i<metas.length; i++) {
+            if (metas[i].name == "viewport") {
+                metas[i].content = "width=device-width, minimum-scale=0.25, maximum-scale=1.6";
+            }
+        }
+    }
+
     var metas = document.getElementsByTagName('meta')
     ,   i
     ,   method
@@ -22,20 +37,15 @@
         }
     }
 
-    function gestureStart() {
-        for (i=0; i<metas.length; i++) {
-            if (metas[i].name == "viewport") {
-                metas[i].content = "width=device-width, minimum-scale=0.25, maximum-scale=1.6";
-            }
-        }
-    }
-
-    if ( navigator.userAgent.match(/iPhone/i) ) {
+    if ( navigator.userAgent.match(/(iPad|iPhone|iPod)/i) ) {
         for ( i=0; i<metas.length; i++ ) {
             if (metas[i].name == "viewport") {
                 metas[i].content = "width=device-width, minimum-scale=1.0, maximum-scale=1.0";
             }
         }
+
+        meta('apple-mobile-web-app-capable', 'yes');
+        meta('apple-touch-fullscreen', 'yes');
 
         document.addEventListener("gesturestart", gestureStart, false);
 

@@ -1,10 +1,14 @@
-var tip = {
+var Tip = {
     showTip : function(tipNum) {
-        var num = tipNum || 1;
+        if ( tipNum == 0 ) {
+            tipNum = this.tipTotalCount();
+        } else if ( !tipNum ) {
+            tipNum = 1;
+        }
 
         $.ajax({
-            url: "model/tip"+ num +".json",
-            dataType: "json"
+            url : "model/tip"+ tipNum +".json",
+            dataType : "json"
         }).done(function (data) {
             var tip = data.tip || ""
             ,   org = data.org
@@ -33,26 +37,46 @@ var tip = {
                 org = '';
             }
 
-            $('#content').text(tip).append(org).append("<br/>" + conts).attr('data-tipId',num);
+            $('#content').text(tip).append(org).append("<br/>" + conts).attr('data-tipId',tipNum);
 
         }).error(function () {
-            tip.showTip();
+            Tip.showTip();
         })
+    },
+    tipTotalCount : function () {
+        var isEOF = true
+        ,   tipNum = 1;
+
+        while ( isEOF ) {
+            $.ajax({
+                url : "model/tip"+ tipNum +".json",
+                dataType : "json",
+                async : false
+            }).done(function () {
+                tipNum = tipNum + 1;
+            }).error(function () {
+                tipNum = tipNum - 1;
+                isEOF = false;
+            })
+        }
+
+        return tipNum;
     }
-}
+};
 
-$('#nextTip').bind('click', function() {
-    var id = (parseInt($('#content').attr('data-tipId'), 10)) + 1;
-    tip.showTip(id);
-    return false;
-});
-
-$('#previousTip').bind('click', function() {
-    var id = (parseInt($('#content').attr('data-tipId'), 10)) - 1;
-    tip.showTip(id);
-    return false;
-});
-
+// init Tip
 (function () {
-    tip.showTip();
+    $('#nextTip').bind('click', function() {
+        var id = (parseInt($('#content').attr('data-tipId'), 10)) + 1;
+        Tip.showTip(id);
+        return false;
+    });
+
+    $('#previousTip').bind('click', function() {
+        var id = (parseInt($('#content').attr('data-tipId'), 10)) - 1;
+        Tip.showTip(id);
+        return false;
+    });
+
+    Tip.showTip();
 }());
