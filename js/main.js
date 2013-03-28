@@ -39,6 +39,10 @@ var Tip = {
 
             $('#content').text(tip).append(org).append("<br/>" + conts).attr('data-tipId',tipNum);
 
+            if ( $('input[name="latestTipShow"]').is(':checked') ) {
+                docCookies.setItem("latestTipNum", $('#content').attr('data-tipId'));
+            }
+
         }).error(function () {
             Tip.showTip();
         })
@@ -78,5 +82,19 @@ var Tip = {
         return false;
     });
 
-    Tip.showTip();
+    $('input[name="latestTipShow"]').bind('change', function() {
+        if ( $(this).is(':checked') ) {
+            docCookies.setItem("latestTipNum", $('#content').attr('data-tipId'));
+        } else {
+            docCookies.removeItem("latestTipNum");
+        }
+    });
+
+    if ( docCookies.getItem("latestTipNum") ) {
+        $('input[name="latestTipShow"]').attr('checked', true);
+        Tip.showTip(docCookies.getItem("latestTipNum"));
+    } else {
+        Tip.showTip();
+    }
+
 }());
