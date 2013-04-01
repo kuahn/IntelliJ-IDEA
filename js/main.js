@@ -1,7 +1,15 @@
 var Tip = {
+    params : {
+        totalCount : undefined
+    },
     showTip : function(tipNum) {
         if ( tipNum == 0 ) {
-            tipNum = this.tipTotalCount();
+            // caching
+            if ( !this.params.totalCount ) {
+                tipNum = this.params.totalCount = this.totalCounter();
+            } else {
+                tipNum = this.params.totalCount;
+            }
         } else if ( !tipNum ) {
             tipNum = 1;
         }
@@ -47,7 +55,7 @@ var Tip = {
             Tip.showTip();
         })
     },
-    tipTotalCount : function () {
+    totalCounter : function () {
         var isEOF = true
         ,   tipNum = 1;
 
