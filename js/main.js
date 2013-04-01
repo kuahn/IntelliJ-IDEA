@@ -10,7 +10,7 @@ var Tip = {
             } else {
                 tipNum = this.params.totalCount;
             }
-        } else if ( !tipNum ) {
+        } else if ( !tipNum || tipNum === (this.params.totalCount + 1) ) {
             tipNum = 1;
         }
 
