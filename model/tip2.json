@@ -1,5 +1,5 @@
 {
-    "tip" : "",
+    "tip" : "편집창에서 ⌃N (Code | Generate)을 사용하면 클래스 어디서든 쉽게 getter, setter 메서드를 생성할 수 있습니다.",
     "org" : "Using ⌃N (Code | Generate) in the editor, you may easily generate getter and setter methods for any fields of your class.",
     "imgs" : [
         {
