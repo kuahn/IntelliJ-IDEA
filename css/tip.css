@@ -5,6 +5,11 @@ h1 {
     margin: 2% 20% 0 20%;
 }
 
+.version {
+    font-size: 0.5em;
+    color: #C7C7C7;
+}
+
 a {
     vertical-align: bottom;
     color: #C7C7C7;

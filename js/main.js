@@ -45,7 +45,7 @@ var Tip = {
                 org = '';
             }
 
-            $('#content').text(tip).append(org).append("<br/>" + conts).attr('data-tipId',tipNum);
+            $('#content').html(tip).append(org).append("<br/>" + conts).attr('data-tipId',tipNum);
 
             if ( $('input[name="latestTipShow"]').is(':checked') ) {
                 docCookies.setItem("latestTipNum", $('#content').attr('data-tipId'));
