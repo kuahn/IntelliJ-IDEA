@@ -1,24 +1,25 @@
 # IntelliJ-IDEA TIPS
+[IntelliJ-IDEA homepage](http://kuahn.github.com/IntelliJ-IDEA)
 
-## ±â¿©ÀÚ
+## ê¸°ì—¬ì
 * Kwangun Ahn : [kuahn](https://github.com/kuahn)
 * Junha Yang : [yakmoz](https://github.com/yakmoz)
 * Kiyong Song : [kiyong](https://github.com/kiyong)
 
-[IntelliJ-IDEA homepage](http://kuahn.github.com/IntelliJ-IDEA)
+
 
 ## tip*.json structure
-    tip : ¹ø¿ªµÈ ÆÁ,
-    org : ¿ø¹®,
-    imgs : ÀÌ¹ÌÁö Á¤º¸ {
-        src : ÀÌ¹ÌÁö °æ·Î
+    tip : ë²ˆì—­ëœ íŒ,
+    org : ì›ë¬¸,
+    imgs : ì´ë¯¸ì§€ ì •ë³´ {
+        src : ì´ë¯¸ì§€ ê²½ë¡œ
     },
-    class : ÆÁ ºĞ·ù
+    class : íŒ ë¶„ë¥˜
 
 
 ## for example
     {
-        "tip": "ÀÌ¹ÌÁö ÆÄÀÏ ÀÌ¸§ ÀÚµ¿¿Ï¼ºÀ» À§ÇØ HTML, CSS ³ª ¿©Å¸ ÆÄÀÏ¿¡¼­ ±âº» ÀÚµ¿¿Ï¼º (??) À» ÀÌ¿ëÇÏ¼¼¿ä.",
+        "tip": "ì´ë¯¸ì§€ íŒŒì¼ ì´ë¦„ ìë™ì™„ì„±ì„ ìœ„í•´ HTML, CSS ë‚˜ ì—¬íƒ€ íŒŒì¼ì—ì„œ ê¸°ë³¸ ìë™ì™„ì„± (âŒƒâ£) ì„ ì´ìš©í•˜ì„¸ìš”.",
         "org" : "Use Basic Completion  within HTML, CSS and other files, for completing image file names.",
         "imgs": [
             {
