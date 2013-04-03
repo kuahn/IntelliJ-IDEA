@@ -1,6 +1,6 @@
 {
-    "tip" : "Quick Definition (??I) ±â´ÉÀ» ÀÌ¿ëÇØ¼­ Ä³·µ(ex. / ) À§Ä¡ÀÇ ÀÌ¹ÌÁö¸¦ ¹Ì¸®º¸±â ÇÒ ¼ö ÀÖ´Ù. ¹ØÁÙÃ³Áö´Â ÀÌ¹ÌÁö´Â ºĞ¸®µÈ ¿¡µğÅÍÅÇ ´ë½Å¿¡ ÆË¾÷À¸·Î ¿­¸±°ÍÀÌ´Ù.",
-    "org" : "You can quickly view the image referenced at caret by using the Quick Definition (??I). The underlying image will be opened in a popup instead of a separate editor tab.",
+    "tip" : "Quick Definition (â‡§âŒ˜I) ê¸°ëŠ¥ì„ ì´ìš©í•´ì„œ ìºëŸ¿(ex. /) ìœ„ì¹˜ì˜ ì´ë¯¸ì§€ë¥¼ ë¯¸ë¦¬ë³´ê¸° í•  ìˆ˜ ìˆë‹¤. ë°‘ì¤„ì²˜ì§€ëŠ” ì´ë¯¸ì§€ëŠ” ë¶„ë¦¬ëœ ì—ë””í„°íƒ­ ëŒ€ì‹ ì— íŒì—…ìœ¼ë¡œ ì—´ë¦´ê²ƒì´ë‹¤.",
+    "org" : "You can quickly view the image referenced at caret by using the Quick Definition (â‡§âŒ˜I). The underlying image will be opened in a popup instead of a separate editor tab.",
     "imgs": [
         {
             "src": "img/2013-04-03_10-54-36.png"
