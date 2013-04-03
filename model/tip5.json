@@ -1,0 +1,14 @@
+{
+    "tip" : "Quick Definition (??I) 기능을 이용해서 캐럿(ex. / ) 위치의 이미지를 미리보기 할 수 있다. 밑줄처지는 이미지는 분리된 에디터탭 대신에 팝업으로 열릴것이다.",
+    "org" : "You can quickly view the image referenced at caret by using the Quick Definition (??I). The underlying image will be opened in a popup instead of a separate editor tab.",
+    "imgs": [
+        {
+            "src": "img/2013-04-03_10-54-36.png"
+        }
+    ],
+    "class" : "toolbar"
+}
+
+
+
+
