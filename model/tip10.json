@@ -1,0 +1,12 @@
+{
+    "tip" : "코드의 중괄호<span class=\"darkOrangeClr\">({})</span>를 선택하면 해당되는 중괄호 짝이 강조됩니다. 강조되는 스타일을 변경하고 싶으면, <span class=\"darkOrangeClr\">Editor | Colors & Fonts | General | Matched brace</span>, 의 색상을 조정하세요.",
+    "imgs" : [
+        {
+            "src" : "img/2013-04-05_12-14-55.jpg"
+        },
+        {
+            "src" : "img/2013-04-05_12-01-25.jpg"
+        }
+    ],
+    "class" : "editor"
+}

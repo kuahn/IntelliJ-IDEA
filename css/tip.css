@@ -16,6 +16,10 @@ a {
     text-decoration: none;
 }
 
+.darkOrangeClr {
+    color: #cf915e;
+}
+
 #contributor {
     margin: 1% 20% 5% 20%;
 }
