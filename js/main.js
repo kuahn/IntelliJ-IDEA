@@ -51,6 +51,12 @@ var Tip = {
                 docCookies.setItem("latestTipNum", $('#content').attr('data-tipId'));
             }
 
+            if ( $('#org').length > 0 ) {
+                $('#originalText').removeClass('hidden');
+            } else {
+                $('#originalText').addClass('hidden');
+            }
+
         }).error(function () {
             Tip.showTip();
         })
@@ -112,5 +118,4 @@ var Tip = {
     } else {
         Tip.showTip();
     }
-
 }());
