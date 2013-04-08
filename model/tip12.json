@@ -1,0 +1,10 @@
+{
+    "tip" : "<span class=\"darkOrangeClr\">'Settings'</span> 구문완성을 통해 코드골격을 만들 수 있습니다. 메소드선언이나, 구문을 타이핑하고 괄호를 연뒤 <span class=\"darkOrangeClr\">⇧⌘⏎</span> 를 누릅니다. 커서가 위치한쪽에 중괄호가 생성됩니다.",
+    "org" : "You can create code constructs using statement completion. Start typing a method declaration or a statement, and press <span class=\"darkOrangeClr\">⇧⌘⏎</span> after the opening parenthesis. The braces are created, with the caret placed inside:",
+    "imgs" : [
+        {
+            "src": "img/2013-04-08_18-14-16.png"
+        }
+    ],
+    "class" : "toolbar"
+}
