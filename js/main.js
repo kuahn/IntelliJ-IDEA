@@ -40,7 +40,7 @@ var Tip = {
             }
 
             if ( org ) {
-                org = '<span id="org">(' + org + ')</span>';
+                org = '<span id="org" class="hidden">(' + org + ')</span>';
             } else {
                 org = '';
             }
@@ -95,6 +95,14 @@ var Tip = {
             docCookies.setItem("latestTipNum", $('#content').attr('data-tipId'));
         } else {
             docCookies.removeItem("latestTipNum");
+        }
+    });
+
+    $('#originalText').bind('click',function() {
+        if ( $('#org').hasClass('hidden') ) {
+            $('#org').removeClass('hidden');
+        } else {
+            $('#org').addClass('hidden');
         }
     });
 

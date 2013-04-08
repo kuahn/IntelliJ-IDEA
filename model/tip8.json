@@ -1,5 +1,5 @@
 {
-    "tip" : "태그이름에 마우스오른쪽 버튼을 클릭하고 팝업메뉴에서 'Show Applied Styles For Tag' 를 선택하여 HTML 태그에 현재 적용된 스타일을 쉽게 확인할 수 있습니다.",
+    "tip" : "태그이름에 마우스오른쪽 버튼을 클릭하고 팝업메뉴에서 <span class=\"darkOrangeClr\">'Show Applied Styles For Tag'</span> 를 선택하여 HTML 태그에 현재 적용된 스타일을 쉽게 확인할 수 있습니다.",
     "org" : "You can quickly review all styles currently applied to an HTML tag, by right-clicking the tag name and selecting 'Show Applied Styles For Tag' from the popup menu.",
     "imgs": [
         {

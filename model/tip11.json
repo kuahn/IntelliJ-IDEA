@@ -1,5 +1,5 @@
 {
-    "tip" : "'Settings' 다이얼로그 창에서 브라우징이 필요 없이 다양한 방법으로 원하는 설정을 빨리 찾을 수 있습니다. 원하는 문자를 타이핑하면 옵션의 설명에 존재하거나, 설정 리스트가 맞는것으로 줄어들것입니다. 원하는 항목을 선택해서 입력한 문자열을 담는 하이라이트된 설정을 부분을 볼수 있습니다.",
+    "tip" : "<span class=\"darkOrangeClr\">'Settings'</span> 다이얼로그 창에서 브라우징이 필요 없이 다양한 방법으로 원하는 설정을 빨리 찾을 수 있습니다. 원하는 문자를 타이핑하면 옵션의 설명에 존재하거나, 설정 리스트가 맞는것으로 줄어들것입니다. 원하는 항목을 선택해서 입력한 문자열을 담는 하이라이트된 설정을 부분을 볼수 있습니다.",
     "org" : "You can quickly find a setting you need in the Settings dialog, without browsing through the numerous options. Just type some characters that, in your opinion, exist in the option description, and the list of settings will reduce to the matching ones. Select the desired entry, and see the setting that contains the entered characters highlighted:",
     "imgs" : [
         {

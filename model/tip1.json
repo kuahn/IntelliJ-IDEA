@@ -1,5 +1,5 @@
 {
-    "tip": "상단 탐색 바는 프로젝트를 좀 더 빠르게 탐색할 수 있게 해줍니다.<br/>⌥↖ 단축키를 사용하면 탐색 바에 접근할 수 있고, 화살키로 원하는 파일이나 폴더를 찾아 갈 수 있습니다.",
+    "tip": "상단 탐색 바는 프로젝트를 좀 더 빠르게 탐색할 수 있게 해줍니다. <span class=\"darkOrangeClr\">⌥↖</span> 단축키를 사용하면 탐색 바에 접근할 수 있고, 화살키로 원하는 파일이나 폴더를 찾아 갈 수 있습니다.",
     "org" : "Navigation bar is a quick alternative to the Project view. Use ⌥↖ keyboard shortcut to show the navigation bar, and arrow keys to locate the necessary files or folders.",
     "imgs": [
         {

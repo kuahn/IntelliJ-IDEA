@@ -1,5 +1,5 @@
 {
-    "tip" : "'Changes' 툴 윈도는 삭제, 수정, 미적용 된 모든 파일을 하나의 화면에 보여줍니다. ⌘9 단축키로 해당 툴창을 보여주거나 감출 수 있습니다. 'Changes' 툴 창에서는 변경내용 커밋, 변경리스트 관리, 리소스의 버전컨트롤 , 차이점 확인 등 모든 필요한 버전컨트롤 액션을 수행 할 수 있습니다.",
+    "tip" : "<span class=\"darkOrangeClr\">'Changes'</span> 툴 윈도는 삭제, 수정, 미적용 된 모든 파일을 하나의 화면에 보여줍니다. <span class=\"darkOrangeClr\">⌘9</span> 단축키로 해당 툴창을 보여주거나 감출 수 있습니다. <span class=\"darkOrangeClr\">'Changes'</span> 툴 창에서는 변경내용 커밋, 변경리스트 관리, 리소스의 버전컨트롤 , 차이점 확인 등 모든 필요한 버전컨트롤 액션을 수행 할 수 있습니다.",
     "org" : "The Changes tool window shows all deleted, modified, and unversioned files in a single view. Use ⌘9 keyboard shortcut to show or hide this tool window. From the Changes tool window you can perform all the necessary version control actions: commit changes, manage changelists, put resources under version control, examine differences and more.",
     "class" : "toolbar"
 }
