@@ -1,0 +1,10 @@
+{
+    "tip" : "ing...",
+    "org" : "You can view all methods of the implemented interfaces in a class, if you place the caret at the implements keyword in the class declaration, press ⇧⌘F7, and select the desired interface from the list:",
+    "imgs" : [
+        {
+            "src": "img/2013-04-11_11-44-33.png"
+        }
+    ],
+    "class" : "toolbar"
+}
