@@ -1,0 +1,10 @@
+{
+    "tip" : "<span class=\"darkOrangeClr\">의사 결정 기능</span>은 현재 편집 위치에서 벗어날 필요 없이 자동으로 필요한 태그를 제안 해주기도 하며 Ant 프로퍼티나 아직 정의되지 않은 대상까지도 참조할 수 있습니다.",
+    "org" : "You can start referring to an Ant property or target even if it is not defined yet. An intention action feature will suggest you to automatically create the necessary tag, without the need for you to leave your current editing location.",
+    "imgs" : [
+        {
+            "src": "img/2013-04-15_10-11-47.jpg"
+        }
+    ],
+    "class" : "editor"
+}
