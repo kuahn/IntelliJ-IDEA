@@ -1,0 +1,4 @@
+{
+    "tip" : "콘솔의 출력 버퍼 크기를 늘리려면, <span class=\"darkOrangeClr\">IntelliJ-IDEA > bin > idea.properties</span> 파일의 <span class=\"darkOrangeClr\">idea.cycle.buffer.size</span> 를 늘리면 됩니다.",
+    "class" : "console"
+}
