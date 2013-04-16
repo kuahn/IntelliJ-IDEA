@@ -1,5 +1,5 @@
 {
-    "tip" : "콘솔과 같은 출력에 한글이 제대로 표시되지 않는다면, <span class=\"darkOrangeClr\">IntelliJ-IDEA > bin > idea.vmoptions</span> 파일에 <span class=\"darkOrangeClr\">-Dfile.encoding={필요한 엔코딩 이름}</span> 옵션을 추가해 보세요.",
+    "tip" : "콘솔과 같은 출력에 한글이 제대로 표시되지 않는다면, <span class=\"darkOrangeClr\">IntelliJ-IDEA > bin > idea.vmoptions</span> 파일에 <span class=\"darkOrangeClr\">JVM 옵션 \"-Dfile.encoding={필요한 엔코딩 이름}\"</span> 을 추가해 보세요.",
     "imgs" : [
         {
             "src": "img/2013-04-16_11-50-20.jpg"
