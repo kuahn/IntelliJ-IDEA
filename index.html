@@ -18,20 +18,43 @@
     <link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72-precomposed.png" />
     <link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114-precomposed.png" />
     <link rel="apple-touch-icon" sizes="144x144" href="apple-touch-icon-144x144-precomposed.png" />
-    <link rel="stylesheet" href="css/normalize.css?201303271127">
-    <link rel="stylesheet" href="css/main.css?201303271127">
-    <link rel="stylesheet" href="css/tip.css?201303271127">
+    <link rel="stylesheet" href="css/normalize.css?201303271127"/>
+    <link rel="stylesheet" href="css/main.css?201303271127"/>
+    <link rel="stylesheet" href="css/tip.css?201303271127"/>
     <script src="js/vendor/modernizr-2.6.2.min.js"></script>
 </head>
 <body><!--[if lt IE 7]><p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p><![endif]-->
 <h1>IntelliJ-IDEA Tips</h1>
 <div id="tip">
     <header>Did you know ... ?</header>
+    <section id="search">
+        <div id='cse'></div>
+        <script src='//www.google.com/jsapi' type='text/javascript'></script>
+        <script type='text/javascript'>
+            google.load('search', '1', {language: 'ko', style: google.loader.themes.V2_DEFAULT});
+            google.setOnLoadCallback(function() {
+                var customSearchOptions = {};
+                var orderByOptions = {};
+                orderByOptions['keys'] = [{label: 'Relevance', key: ''} , {label: 'Date', key: 'date'}];
+                customSearchOptions['enableOrderBy'] = true;
+                customSearchOptions['orderByOptions'] = orderByOptions;
+                customSearchOptions['overlayResults'] = true;
+                var customSearchControl =   new google.search.CustomSearchControl('000414991981113060316:vgbtufnjsui', customSearchOptions);
+                customSearchControl.setResultSetSize(google.search.Search.FILTERED_CSE_RESULTSET);
+                var options = new google.search.DrawOptions();
+                options.setAutoComplete(true);
+                customSearchControl.draw('cse', options);
+            }, true);
+        </script>
+        <link rel="stylesheet" href="css/googlesearch.css?201304171711"/>
+    </section>
     <section id="content"></section>
     <footer>
-        <input type="checkbox" name="latestTipShow"/> Show Latest Tip on Startup
+        <label>
+            <input type="checkbox" name="latestTipShow"/> Show Latest Tip on Startup
+        </label>
         <nav>
-            <a href="#" class="button gray medium" id="originalText" class="hidden">Original</a> <a href="#" class="button gray medium" id="previousTip">Previous Tip</a> <a href="#" class="button gray medium" id="nextTip">Next Tip</a>
+            <a href="#" class="button gray medium hidden" id="originalText" >Original</a> <a href="#" class="button gray medium" id="previousTip">Previous Tip</a> <a href="#" class="button gray medium" id="nextTip">Next Tip</a>
         </nav>
     </footer>
 </div>

@@ -44,8 +44,8 @@ a {
 }
 
 #tip header { background: url("../img/question.png") no-repeat; font-size: 1.1em; padding: 7px 0 8px 37px; }
-#tip section {  background-color: #585B5C; color: #C3C8C8; border: 1px solid #353638; padding: 10px; min-height: 200px; overflow: scroll;}
-#tip section #org { color:#7A7D7E; }
+#tip #content {  background-color: #585B5C; color: #C3C8C8; border: 1px solid #353638; padding: 10px; min-height: 200px; overflow: scroll;}
+#tip #org { color:#7A7D7E; }
 #tip footer { margin:5px 0 0 0; font-size: 0.8em; }
 
 #tip footer .button {
