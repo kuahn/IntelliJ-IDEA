@@ -27,27 +27,7 @@
 <h1>IntelliJ-IDEA Tips</h1>
 <div id="tip">
     <header>Did you know ... ?</header>
-    <section id="search">
-        <div id='cse'></div>
-        <script src='//www.google.com/jsapi' type='text/javascript'></script>
-        <script type='text/javascript'>
-            google.load('search', '1', {language: 'ko', style: google.loader.themes.V2_DEFAULT});
-            google.setOnLoadCallback(function() {
-                var customSearchOptions = {};
-                var orderByOptions = {};
-                orderByOptions['keys'] = [{label: 'Relevance', key: ''} , {label: 'Date', key: 'date'}];
-                customSearchOptions['enableOrderBy'] = true;
-                customSearchOptions['orderByOptions'] = orderByOptions;
-                customSearchOptions['overlayResults'] = true;
-                var customSearchControl =   new google.search.CustomSearchControl('000414991981113060316:vgbtufnjsui', customSearchOptions);
-                customSearchControl.setResultSetSize(google.search.Search.FILTERED_CSE_RESULTSET);
-                var options = new google.search.DrawOptions();
-                options.setAutoComplete(true);
-                customSearchControl.draw('cse', options);
-            }, true);
-        </script>
-        <link rel="stylesheet" href="css/googlesearch.css?201304171711"/>
-    </section>
+    <section id="cse"></section>
     <section id="content"></section>
     <footer>
         <label>
@@ -67,11 +47,28 @@
 <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
 <script src="js/plugins.js?201303271127"></script>
 <script src="js/main.js?201303271127"></script>
-<script>
+<script src='//www.google.com/jsapi' type='text/javascript'></script>
+<script type='text/javascript'>
+    google.load('search', '1', {language: 'ko', style: google.loader.themes.V2_DEFAULT});
+    google.setOnLoadCallback(function() {
+        var customSearchOptions = {};
+        var orderByOptions = {};
+        orderByOptions['keys'] = [{label: 'Relevance', key: ''} , {label: 'Date', key: 'date'}];
+        customSearchOptions['enableOrderBy'] = true;
+        customSearchOptions['orderByOptions'] = orderByOptions;
+        customSearchOptions['overlayResults'] = true;
+        var customSearchControl =   new google.search.CustomSearchControl('000414991981113060316:vgbtufnjsui', customSearchOptions);
+        customSearchControl.setResultSetSize(google.search.Search.FILTERED_CSE_RESULTSET);
+        var options = new google.search.DrawOptions();
+        options.setAutoComplete(true);
+        customSearchControl.draw('cse', options);
+    }, true);
+
     var _gaq=[['_setAccount','UA-39404262-1'],['_trackPageview']];
     (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
         g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
         s.parentNode.insertBefore(g,s)}(document,'script'));
 </script>
+<link rel="stylesheet" href="css/googlesearch.css?201304171711"/>
 </body>
 </html>
