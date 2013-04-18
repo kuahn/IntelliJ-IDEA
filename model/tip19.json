@@ -1,5 +1,5 @@
 {
-    "tip" : "커서를 심볼이름이나, 그것이 사용되는 코드에 위치해두고 <span class=\"darkOrangeClr\">⌥F7</span> 를 누르면 프로젝트 전체에서 특정 클래스,메소드 또는 변수 의 사용위치를 찾을 수 있습니다. ",
-    "org" : "You may quickly find all places where a particular class, method or variable is used in the whole project by positioning the caret at the symbol's name or at its usage in code and pressing <span class=\"darkOrangeClr\">⌥F7</span> (Find Usages in the popup menu).",
+    "tip" : "커서를 심볼이름이나, 그것이 사용되는 코드에 위치해두고 <span class=\"darkOrangeClr\">⌥F7</span>(팝업메뉴의 <span class=\"darkOrangeClr\">Find Usages</span>) 를 누르면 프로젝트 전체에서 특정 클래스,메소드 또는 변수 의 사용위치를 찾을 수 있습니다.",
+    "org" : "You may quickly find all places where a particular class, method or variable is used in the whole project by positioning the caret at the symbol's name or at its usage in code and pressing <span class=\"darkOrangeClr\">⌥F7</span> (<span class=\"darkOrangeClr\">Find Usages</span> in the popup menu).",
     "class" : "toolbar"
 }
