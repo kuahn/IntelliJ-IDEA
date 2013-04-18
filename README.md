@@ -29,5 +29,5 @@
         "class" : "edit"
     }
 
-## <span class=\"darkOrangeClr\"></span> mean
+## `<span class=\"darkOrangeClr\">(⌃␣)</span>` mean
     dark orange color font
