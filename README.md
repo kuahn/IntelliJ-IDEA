@@ -30,4 +30,4 @@
     }
 
 ## `<span class=\"darkOrangeClr\">(⌃␣)</span>` mean
-    dark orange color font
+    dark-orange-color font for highlight
