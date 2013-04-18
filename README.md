@@ -19,7 +19,7 @@
 
 ## for example
     {
-        "tip": "이미지 파일 이름 자동완성을 위해 HTML, CSS 나 여타 파일에서 기본 자동완성 (⌃␣) 을 이용하세요.",
+        "tip": "이미지 파일 이름 자동완성을 위해 HTML, CSS 나 여타 파일에서 기본 자동완성 <span class=\"darkOrangeClr\">(⌃␣)</span> 을 이용하세요.",
         "org" : "Use Basic Completion  within HTML, CSS and other files, for completing image file names.",
         "imgs": [
             {
@@ -29,3 +29,5 @@
         "class" : "edit"
     }
 
+## <span class=\"darkOrangeClr\"></span> mean
+    dark orange color font
