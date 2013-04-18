@@ -1,0 +1,10 @@
+{
+    "tip" : "",
+    "org" : "You may quickly find all places where a particular class, method or variable is used in the whole project by positioning the caret at the symbol's name or at its usage in code and pressing ⌥F7 (Find Usages in the popup menu).",
+    "imgs" : [
+        {
+            "src": "img/2013-04-15_22-16-44.png"
+        }
+    ],
+    "class" : "toolbar"
+}
