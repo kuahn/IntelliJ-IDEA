@@ -68,7 +68,7 @@ var Tip = {
         ,   tipNum = 1;
 
         $.ajax({
-            url : "../properties.json",
+            url : "/../properties.json",
             dataType : "json",
             async : false
         }).done(function (data) {
