@@ -1,6 +1,6 @@
 {
-    "tip" : "¿¡µğÅÍÀÇ Ä¿¼­À§Ä¡ÀÇ Å¬·¡½º³ª ¸Ş¼ÒµåÀÇ »ç¿ë¿¡ ´ëÇÑ ¹®¼­¸¦ Äüºä ÇÏ·Á¸é  <span class=\"darkOrangeClr\">?J (View | Quick Documentation).</span> ¸¦ ´©¸£¸é µË´Ï´Ù.",
-    "org" : "To quickly see the documentation for the class or method used at the editor's caret, press  <span class=\"darkOrangeClr\">?J (View | Quick Documentation).</span>",
+    "tip" : "ì—ë””í„°ì˜ ì»¤ì„œìœ„ì¹˜ì˜ í´ë˜ìŠ¤ë‚˜ ë©”ì†Œë“œì˜ ì‚¬ìš©ì— ëŒ€í•œ ë¬¸ì„œë¥¼ í€µë·° í•˜ë ¤ë©´  <span class=\"darkOrangeClr\">âŒƒJ (View | Quick Documentation).</span> ë¥¼ ëˆ„ë¥´ë©´ ë©ë‹ˆë‹¤.",
+    "org" : "To quickly see the documentation for the class or method used at the editor's caret, press  <span class=\"darkOrangeClr\">âŒƒJ (View | Quick Documentation).</span>",
     "imgs" : [
         {
             "src": "img/2013-04-19_14-32-08.png"
@@ -8,7 +8,3 @@
     ],
     "class" : "editor"
 }
-
-
-
-
