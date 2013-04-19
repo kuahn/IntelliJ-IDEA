@@ -6,8 +6,6 @@
 * Junha Yang : [yakmoz](https://github.com/yakmoz)
 * Kiyong Song : [kiyong](https://github.com/kiyong)
 
-
-
 ## tip*.json structure
     tip : 번역된 팁,
     org : 원문,
@@ -31,3 +29,7 @@
 
 ## `<span class=\"darkOrangeClr\">(⌃␣)</span>` mean
     dark-orange-color font for highlight
+
+## total count
+    properties.json > totalCount 에 작업자가 기재.
+    기재하지 않으면 해당 tip이 미반영.

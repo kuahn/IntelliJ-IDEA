@@ -3,15 +3,17 @@ var Tip = {
         totalCount : undefined
     },
     showTip : function(tipNum) {
-        if ( tipNum == 0 ) {
+        if ( !tipNum ) {
             // caching
             if ( !this.params.totalCount ) {
                 tipNum = this.params.totalCount = this.totalCounter();
             } else {
                 tipNum = this.params.totalCount;
             }
-        } else if ( !tipNum || tipNum === (this.params.totalCount + 1) ) {
-            tipNum = 1;
+        } else if ( tipNum === (this.params.totalCount + 1) ) {
+            tipNum = 1
+        } else if ( tipNum === 0) {
+            tipNum = this.params.totalCount;
         }
 
         $.ajax({
@@ -65,18 +67,26 @@ var Tip = {
         var isEOF = true
         ,   tipNum = 1;
 
-        while ( isEOF ) {
-            $.ajax({
-                url : "model/tip"+ tipNum +".json",
-                dataType : "json",
-                async : false
-            }).done(function () {
-                tipNum = tipNum + 1;
-            }).error(function () {
-                tipNum = tipNum - 1;
-                isEOF = false;
-            })
-        }
+        $.ajax({
+            url : "/properties.json",
+            dataType : "json",
+            async : false
+        }).done(function (data) {
+            tipNum = data.totalCount;
+        }).error(function () {
+            while ( isEOF ) {
+                $.ajax({
+                    url : "model/tip"+ tipNum +".json",
+                    dataType : "json",
+                    async : false
+                }).done(function () {
+                    tipNum = tipNum + 1;
+                }).error(function () {
+                    tipNum = tipNum - 1;
+                    isEOF = false;
+                })
+            }
+        })
 
         return tipNum;
     }
