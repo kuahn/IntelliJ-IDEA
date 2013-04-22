@@ -1,5 +1,5 @@
 {
-    "tip" : "<span class=\"darkOrangeClr\">F2</span>/<span class=\"darkOrangeClr\">?F2</span> Å°¸¦ ÀÌ¿ëÇØ¼­ ÇÏÀÌ¶óÀÌÆ®µÈ ¹®¹ı¿¡·¯µéÀ» ÀÌµ¿ÇÒ ¼ö ÀÖ½À´Ï´Ù.<br/>ÄÄÆÄÀÏ ¿¡·¯¸Ş½ÃÁöµéÀÌ³ª °Ë»ö °á°úµé »çÀÌ¸¦ ÀÌµ¿ÇÒ¶§ <span class=\"darkOrangeClr\">??¡è</span>/<span class=\"darkOrangeClr\">??¡é</span> ´ÜÃàÅ°¸¦ »ç¿ëÇÕ´Ï´Ù.",
-    "org" : "Use <span class=\"darkOrangeClr\">F2</span>/<span class=\"darkOrangeClr\">?F2</span> keys to jump between highlighted syntax errors.<br/>Use <span class=\"darkOrangeClr\">??¡è</span>/<span class=\"darkOrangeClr\">??¡é</span> shortcuts to jump between compiler error messages or search operation results.",
+    "tip" : "<span class=\"darkOrangeClr\">F2</span>/<span class=\"darkOrangeClr\">â‡§F2</span> í‚¤ë¥¼ ì´ìš©í•´ì„œ í•˜ì´ë¼ì´íŠ¸ëœ ë¬¸ë²•ì—ëŸ¬ë“¤ì„ ì´ë™í•  ìˆ˜ ìˆìŠµë‹ˆë‹¤.<br/>ì»´íŒŒì¼ ì—ëŸ¬ë©”ì‹œì§€ë“¤ì´ë‚˜ ê²€ìƒ‰ ê²°ê³¼ë“¤ ì‚¬ì´ë¥¼ ì´ë™í• ë•Œ <span class=\"darkOrangeClr\">âŒ¥âŒ˜â†‘</span>/<span class=\"darkOrangeClr\">âŒ¥âŒ˜â†“</span> ë‹¨ì¶•í‚¤ë¥¼ ì‚¬ìš©í•©ë‹ˆë‹¤.",
+    "org" : "Use <span class=\"darkOrangeClr\">F2</span>/<span class=\"darkOrangeClr\">â‡§F2</span> keys to jump between highlighted syntax errors.<br/>Use <span class=\"darkOrangeClr\">âŒ¥âŒ˜â†‘</span>/<span class=\"darkOrangeClr\">âŒ¥âŒ˜â†“</span> shortcuts to jump between compiler error messages or search operation results.",
     "class" : "editor"
 }
