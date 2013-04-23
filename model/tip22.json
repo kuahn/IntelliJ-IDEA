@@ -1,5 +1,5 @@
 {
     "tip" : "<span class=\"darkOrangeClr\">F2</span>/<span class=\"darkOrangeClr\">⇧F2</span> 키를 이용해서 하이라이트된 문법에러들을 이동할 수 있습니다.<br/>컴파일 에러메시지들이나 검색 결과들 사이를 이동할때 <span class=\"darkOrangeClr\">⌥⌘↑</span>/<span class=\"darkOrangeClr\">⌥⌘↓</span> 단축키를 사용합니다.",
-    "org" : "Use <span class=\"darkOrangeClr\">F2</span>/<span class=\"darkOrangeClr\">⇧F2</span> keys to jump between highlighted syntax errors.<br/>Use <span class=\"darkOrangeClr\">⌥⌘↑</span>/<span class=\"darkOrangeClr\">⌥⌘↓</span> shortcuts to jump between compiler error messages or search operation results.",
+    "org" : "Use <span class=\"darkOrangeClr\">F2</span>/<span class=\"darkOrangeClr\">⇧F2</span> keys to jump between highlighted syntax errors. Use <span class=\"darkOrangeClr\">⌥⌘↑</span>/<span class=\"darkOrangeClr\">⌥⌘↓</span> shortcuts to jump between compiler error messages or search operation results.",
     "class" : "editor"
 }
