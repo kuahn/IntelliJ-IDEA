@@ -1,0 +1,5 @@
+{
+    "tip" : "메뉴를 통해 찾을 필요 없이 메뉴의 명령이나 툴바의 명령을 빠르게 찾을려면 <span class=\"darkOrangeClr\">⇧⌘A (Help | Find Action on the main menu)</span>단축키를 누르고 찾고 있는 명령을 입력하면 연관된 명령어들이 목록에 표시되고 선택할 수 있습니다.",
+    "org" : "To quickly find a menu command or toolbar action, you do not need to look through the menus. Just press ⇧⌘A (Help | Find Action on the main menu) and start typing the name of the action. Choose the desired action from the suggestion list.",
+    "class" : "editor"
+}
