@@ -1,5 +1,5 @@
 {
-    "tip" : "<span class=\"darkOrangeClr\">(2013.04.22 기준)</span> 같은 라이센스로 집과 회사에서 사용이 가능할까요?<br/><p>라이센스를 가진 사용자는 여러 대의 컴퓨터에서 동시에 사용하지만 않는다면 위치에 상관없이 서로 다른 컴퓨터에서 사용할 수 있습니다. 예를 들면, 회사에서 일할 때도 사용할 수 있고, 집에서도 사용할 수 있지만 회사와 집에서 동시에 사용 할 수는 없습니다.<a href=\"http://www.jetbrains.com/idea/buy/licensing_faq.html#q4\" class=\"blueClr\">GO TO THIS FAQ</a></p>",
+    "tip" : "<span class=\"darkOrangeClr\">(2013.04.22 기준)</span> 같은 라이센스로 집과 회사에서 사용이 가능할까요?<br/><p>라이센스를 가진 사용자는 여러 대의 컴퓨터에서 동시에 사용하지만 않는다면 위치에 상관없이 서로 다른 컴퓨터에서 사용할 수 있습니다. 예를 들면, 회사에서 일할 때도 사용할 수 있고, 집에서도 사용할 수 있지만 회사와 집에서 동시에 사용 할 수는 없습니다. <a href=\"http://www.jetbrains.com/idea/buy/licensing_faq.html#q4\" class=\"blueClr\">#GO TO THIS FAQ</a></p>",
     "org" : "Can I use IntelliJ IDEA with the same license at work and at home?</br><p>A licensed user can run IntelliJ IDEA on different computers, regardless of location, provided that IntelliJ IDEA is not run concurrently on more than one computer. For example, you can run IntelliJ IDEA on your workstation at the office, OR on your laptop at home. But if you bring your laptop to the office, you may NOT run IntelliJ IDEA on both your laptop AND your workstation at the same time.</p>",
     "class" : "FAQ"
 }
