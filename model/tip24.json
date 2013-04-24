@@ -1,0 +1,10 @@
+{
+    "tip" : "",
+    "org" : "Use ?J to complete any valid Live Template abbreviation if you don't remember it. For example, type it and press ?J to see what happens.",
+    "imgs" : [
+        {
+            "src": "img/2013-04-24_09-46-19.png"
+        }
+    ],
+    "class" : "editor"
+}
