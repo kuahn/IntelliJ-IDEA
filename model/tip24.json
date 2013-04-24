@@ -1,6 +1,6 @@
 {
-    "tip" : "¸¸¾à ¾î¶°ÇÑ ¶óÀÌºê ÅÛÇÃ¸´ Ãà¾àÁß¿¡ ±â¾ï³ªÁö ¾Ê´Â°Ô ÀÖ´Ù¸é <span class=\"darkOrangeClr\">?J</span> ¸¦ ÀÌ¿ëÇØ¼­ ¿Ï¼ºÇÏ¼¼¿ä. ¿¹·Î, <span class=\"darkOrangeClr\">it</span> À» Ä¡°í, <span class=\"darkOrangeClr\">?J</span> ¸¦ ´­·¯¼­ ¾î¶² °á°ú°¡ ³ª¿À´ÂÁö º¸¼¼¿ä.",
-    "org" : "Use <span class=\"darkOrangeClr\">?J</span> to complete any valid Live Template abbreviation if you don't remember it. For example, type <span class=\"darkOrangeClr\">it</span> and press <span class=\"darkOrangeClr\">?J</span> to see what happens.",
+    "tip" : "ë§Œì•½ ì–´ë– í•œ ë¼ì´ë¸Œ í…œí”Œë¦¿ ì¶•ì•½ì¤‘ì— ê¸°ì–µë‚˜ì§€ ì•ŠëŠ”ê²Œ ìˆë‹¤ë©´ <span class=\"darkOrangeClr\">âŒ˜J</span> ë¥¼ ì´ìš©í•´ì„œ ì™„ì„±í•˜ì„¸ìš”. ì˜ˆë¡œ, <span class=\"darkOrangeClr\">it</span> ì„ ì¹˜ê³ , <span class=\"darkOrangeClr\">âŒ˜J</span> ë¥¼ ëˆŒëŸ¬ì„œ ì–´ë–¤ ê²°ê³¼ê°€ ë‚˜ì˜¤ëŠ”ì§€ ë³´ì„¸ìš”.",
+    "org" : "Use <span class=\"darkOrangeClr\">âŒ˜J</span> to complete any valid Live Template abbreviation if you don't remember it. For example, type <span class=\"darkOrangeClr\">it</span> and press <span class=\"darkOrangeClr\">âŒ˜J</span> to see what happens.",
     "imgs" : [
         {
             "src": "img/2013-04-24_09-46-19.png"
