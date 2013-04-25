@@ -1,0 +1,10 @@
+{
+    "tip" : "만약 어떠한 라이브 템플릿 축약중에 기억나지 않는게 있다면 <span class=\"darkOrangeClr\">⌘J</span> 를 이용해서 완성하세요. 예로, <span class=\"darkOrangeClr\">it</span> 을 치고, <span class=\"darkOrangeClr\">⌘J</span> 를 눌러서 어떤 결과가 나오는지 보세요.",
+    "org" : "Use <span class=\"darkOrangeClr\">⌘J</span> to complete any valid Live Template abbreviation if you don't remember it. For example, type <span class=\"darkOrangeClr\">it</span> and press <span class=\"darkOrangeClr\">⌘J</span> to see what happens.",
+    "imgs" : [
+        {
+            "src": "img/2013-04-24_09-46-19.png"
+        }
+    ],
+    "class" : "editor"
+}
