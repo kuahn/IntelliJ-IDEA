@@ -1,10 +1,5 @@
 {
-    "tip" : "",
-    "org" : "",
-    "imgs" : [
-        {
-            "src": "img/2013-04-24_09-46-19.png"
-        }
-    ],
+    "tip" : "에디터에서 메소드들 사이에 분리선을 보여주기 위해선, <span class=\"darkOrangeClr\">File | Settings | Editor</span> 를 열고 <span class=\"darkOrangeClr\">Appearance</span> 탭에 있는 <span class=\"darkOrangeClr\">Show method separators</span> 체크박스를 선택하세요.",
+    "org" : "To show separator lines between methods in the editor, open <span class=\"darkOrangeClr\">File | Settings | Editor</span> and select the <span class=\"darkOrangeClr\">Show method separators</span> check box in the <span class=\"darkOrangeClr\">Appearance</span> tab.",
     "class" : "editor"
 }
