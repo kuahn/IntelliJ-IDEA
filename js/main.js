@@ -61,7 +61,7 @@ var Tip = {
 
         }).error(function () {
             Tip.showTip();
-        })
+        });
     },
     totalCounter : function () {
         var isEOF = true
@@ -89,6 +89,23 @@ var Tip = {
         })
 
         return tipNum;
+    },
+    getParam : function( key ) {
+        var	nowAddress = unescape(location.href)
+            , parameters = ( nowAddress.slice(nowAddress.indexOf('?')+1, nowAddress.length) ).split('&')
+            , rtnVal = ''
+            , i
+            , lth;
+
+        for ( i = 0, lth = parameters.length; i < lth; i++ ) {
+            var paramKey = parameters[i].split('=')[0];
+
+            if ( paramKey.toUpperCase() == key.toUpperCase() ) {
+                rtnVal = parameters[i].split('=')[1];
+                break;
+            }
+        }
+        return rtnVal;
     }
 };
 
@@ -126,6 +143,6 @@ var Tip = {
         $('input[name="latestTipShow"]').attr('checked', true);
         Tip.showTip(docCookies.getItem("latestTipNum"));
     } else {
-        Tip.showTip();
+        Tip.showTip(Tip.getParam("tip"));
     }
 }());
