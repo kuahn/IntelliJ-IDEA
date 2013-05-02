@@ -1,5 +1,5 @@
 {
-    "tip" : "Maven Clean은 <span class=\"darkOrangeClr\">( Maven Projects | projects | Lifecycle )</span>트리 메뉴에서 clean을 실행하면 됩니다. 단축키도 따로 설정할 수 있고, 다른 명령어들도 포함되어 있습니다.",
+    "tip" : "Maven Clean은 <span class=\"darkOrangeClr\">( Maven Projects | projects | Lifecycle )</span>트리 메뉴에서 clean을 실행하면 됩니다. 다른 명령어들도 포함되어 있으며, 팝업 메뉴에서 단축키도 따로 설정할 수 있습니다.",
     "imgs" : [
         {
             "src": "img/2013-04-29_18-21-00.png"
