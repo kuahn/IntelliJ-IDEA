@@ -41,6 +41,25 @@ var Tip = {
                 conts += '<img src="'+ src +'"/>' + nl;
             }
 
+            $(tip).find('#shrtct').text(function() {
+                var txt = $(this).text()
+                ,   pltfm = navigator.platform.toLowerCase() || undefined;
+
+                if ( !navigator.platform ) {
+                    return txt;
+                }
+
+                if ( pltfm.indexOf("mac") > -1 ) {
+
+                } else if ( pltfm.indexOf("linux") > -1 ) {
+
+                } else if ( pltfm.indexOf("win") > -1 ) {
+
+                }
+
+                return txt;
+            });
+
             if ( org ) {
                 org = '<span id="org" class="hidden">(' + org + ')</span>';
             } else {
