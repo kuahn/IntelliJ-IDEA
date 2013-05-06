@@ -24,53 +24,53 @@
     <script src="js/vendor/modernizr-2.6.2.min.js"></script>
 </head>
 <body><!--[if lt IE 7]><p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p><![endif]-->
-<h1>IntelliJ-IDEA Tips</h1>
-<div id="tip">
-    <header>Did you know ... ?</header>
-    <section id="cse"></section>
-    <section id="content"></section>
-    <footer>
-        <label>
-            <input type="checkbox" name="latestTipShow"/> Show Latest Tip on Startup
-        </label>
-        <nav>
-            <a href="#" class="button gray medium hidden" id="originalText" >Original</a> <a href="#" class="button gray medium" id="previousTip">Previous Tip</a> <a href="#" class="button gray medium" id="nextTip">Next Tip</a>
-        </nav>
-    </footer>
-</div>
-<div id="contributor">
-    <a href="mailto:id@kuahn.com" ><img src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-ash4/c12.12.160.160/268873_2195147000489_4286237_n.jpg" alt="kuahn"/> Kwangun Ahn</a>
-    <a href="http://github.com/yakmoz" target="_blank"><img src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-prn1/c90.0.540.540/s160x160/28526_1475519092162_7794048_n.jpg" alt="yakmoz"/> Junha Yang</a>
-    <a href="http://github.com/kiyong" target="_blank"><img src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-prn1/s160x160/11258_100956213262489_7322806_a.jpg" alt="papasky"/> Kiyong Song</a>
-    <span class="purpleClr">:::</span>
-    <a href="workflow/IntelliJ-IDEA-Tip-with-ko.alfredworkflow" target="_blank"><img src="ijkowithalfred.png" alt="ijkoWithAlfred"/> Alfred workflow download</a>
-</div>
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
-<script src="js/plugins.js?201303271127"></script>
-<script src="js/main.js?201304222030"></script>
-<script src='//www.google.com/jsapi' type='text/javascript'></script>
-<script type='text/javascript'>
-    google.load('search', '1', {language: 'ko', style: google.loader.themes.V2_DEFAULT});
-    google.setOnLoadCallback(function() {
-        var customSearchOptions = {};
-        var orderByOptions = {};
-        orderByOptions['keys'] = [{label: 'Relevance', key: ''} , {label: 'Date', key: 'date'}];
-        customSearchOptions['enableOrderBy'] = true;
-        customSearchOptions['orderByOptions'] = orderByOptions;
-        customSearchOptions['overlayResults'] = true;
-        var customSearchControl =   new google.search.CustomSearchControl('000414991981113060316:vgbtufnjsui', customSearchOptions);
-        customSearchControl.setResultSetSize(google.search.Search.FILTERED_CSE_RESULTSET);
-        var options = new google.search.DrawOptions();
-        options.setAutoComplete(true);
-        customSearchControl.draw('cse', options);
-    }, true);
+    <h1>IntelliJ-IDEA Tips</h1>
+    <div id="tip">
+        <header>Did you know ... ?</header>
+        <section id="cse"></section>
+        <section id="content"></section>
+        <footer>
+            <label>
+                <input type="checkbox" name="latestTipShow"/> Show Latest Tip on Startup
+            </label>
+            <nav>
+                <a href="#" class="button gray medium hidden" id="originalText" >Original</a> <a href="#" class="button gray medium" id="previousTip">Previous Tip</a> <a href="#" class="button gray medium" id="nextTip">Next Tip</a>
+            </nav>
+        </footer>
+    </div>
+    <div id="contributor">
+        <a href="mailto:id@kuahn.com" ><img src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-ash4/c12.12.160.160/268873_2195147000489_4286237_n.jpg" alt="kuahn"/> Kwangun Ahn</a>
+        <a href="http://github.com/yakmoz" target="_blank"><img src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-prn1/c90.0.540.540/s160x160/28526_1475519092162_7794048_n.jpg" alt="yakmoz"/> Junha Yang</a>
+        <a href="http://github.com/kiyong" target="_blank"><img src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-prn1/s160x160/11258_100956213262489_7322806_a.jpg" alt="papasky"/> Kiyong Song</a>
+        <span class="purpleClr">:::</span>
+        <a href="workflow/IntelliJ-IDEA-Tip-with-ko.alfredworkflow" target="_blank"><img src="ijkowithalfred.png" alt="ijkoWithAlfred"/> Alfred workflow download</a>
+    </div>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+    <script src="js/plugins.js?201303271127"></script>
+    <script src="js/main.js?201304222030"></script>
+    <script src='//www.google.com/jsapi' type='text/javascript'></script>
+    <script type='text/javascript'>
+        google.load('search', '1', {language: 'ko', style: google.loader.themes.V2_DEFAULT});
+        google.setOnLoadCallback(function() {
+            var customSearchOptions = {};
+            var orderByOptions = {};
+            orderByOptions['keys'] = [{label: 'Relevance', key: ''} , {label: 'Date', key: 'date'}];
+            customSearchOptions['enableOrderBy'] = true;
+            customSearchOptions['orderByOptions'] = orderByOptions;
+            customSearchOptions['overlayResults'] = true;
+            var customSearchControl =   new google.search.CustomSearchControl('000414991981113060316:vgbtufnjsui', customSearchOptions);
+            customSearchControl.setResultSetSize(google.search.Search.FILTERED_CSE_RESULTSET);
+            var options = new google.search.DrawOptions();
+            options.setAutoComplete(true);
+            customSearchControl.draw('cse', options);
+        }, true);
 
-    var _gaq=[['_setAccount','UA-39404262-1'],['_trackPageview']];
-    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-        g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-        s.parentNode.insertBefore(g,s)}(document,'script'));
-</script>
-<link rel="stylesheet" href="css/googlesearch.css?201304171711"/>
+        var _gaq=[['_setAccount','UA-39404262-1'],['_trackPageview']];
+        (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g,s)}(document,'script'));
+    </script>
+    <link rel="stylesheet" href="css/googlesearch.css?201304171711"/>
 </body>
 </html>
