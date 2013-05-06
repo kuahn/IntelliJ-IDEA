@@ -41,6 +41,7 @@ var Tip = {
                 conts += '<img src="'+ src +'"/>' + nl;
             }
 
+              // 플랫폼별 단축키 제공 기능 구현 중.
 //            $(tip).find('#shrtct').text(function() {
 //                var txt = $(this).text()
 //                ,   pltfm = navigator.platform.toLowerCase() || undefined;
