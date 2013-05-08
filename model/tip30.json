@@ -1,0 +1,10 @@
+{
+    "tip" : "선택한 클래스의 계층적구조의 상속을 보기 위해 <span class=\"darkOrangeClr\">⌃H (View | Type Hierarchy)</span> 누르세요. 그리고 또한 현재 수정하고 있는 클래스의 계층구조를 보기 위해 계층구조 뷰를 에디터의 오른쪽에 호출합니다.",
+    "org" : "To see the inheritance hierarchy for a selected class, press <span class=\"darkOrangeClr\">⌃H (View | Type Hierarchy)</span>. You can also invoke the hierarchy view right from the editor to see the hierarchy for the currently edited class.",
+    "imgs" : [
+        {
+            "src": "img/2013-05-08_09-38-07.png"
+        }
+    ],
+    "class" : "editor"
+}
