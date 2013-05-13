@@ -1,0 +1,10 @@
+{
+    "tip" : "브레이크 포인트 마크(문자들의 왼쪽 바에 있는) 에 대고 마우스 오른쪽 클릭을 하여 브레이크 포인트를 간단히 enable/disable 하거나 설정을 수정할 수 있는 스피드 메뉴를 호출 할 수 있습니다.",
+    "org" : "Right-clicking on a breakpoint marker (on the bar to the left from the text) invokes the speedmenu where you can quickly enable/disable the breakpoint or adjust its properties.",
+    "imgs" : [
+        {
+            "src": "img/2013-05-13_09-48-47.png"
+        }
+    ],
+    "class" : "editor"
+}
