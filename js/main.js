@@ -52,7 +52,7 @@ var Tip = {
             $('#content').html(tip).append(org).append("<br/>" + conts).attr('data-tipId',tipNum);
 
             // 플랫폼별 단축키 제공
-            $('#content').find('#shrtct').text(function() {
+            $('#content').find('.shrtct').text(function() {
                 var txt = $(this).text()
                 ,   pltfm = Tip.params.pltfm || navigator.platform.toLowerCase();
 

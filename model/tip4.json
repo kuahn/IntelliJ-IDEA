@@ -1,5 +1,5 @@
 {
-    "tip" : "마우스를 사용할 필요없이 <span class=\"darkOrangeClr\">⌥⇧F10</span>을 입력하면 메인 툴바의 Run/Debug 드롭다운 메뉴를 사용할 수 있습니다.",
+    "tip" : "마우스를 사용할 필요없이 <span class=\"darkOrangeClr\" class=\"shrtct\">⌥⇧F10</span>을 입력하면 메인 툴바의 Run/Debug 드롭다운 메뉴를 사용할 수 있습니다.",
     "org" : "By pressing ⌥⇧F10 you can access the Run/Debug dropdown on the main toolbar, without the need to use your mouse.",
     "class" : "toolbar"
 }

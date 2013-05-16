@@ -1,5 +1,5 @@
 {
-    "tip" : "최근 클립보드들의 내용을 골라서 붙여넣으려면 <span class=\"darkOrangeClr\">⇧⌘V</span> 를 이용하세요.",
+    "tip" : "최근 클립보드들의 내용을 골라서 붙여넣으려면 <span class=\"darkOrangeClr\" class=\"shrtct\">⇧⌘V</span> 를 이용하세요.",
     "org" : "Use the <span class=\"darkOrangeClr\">⇧⌘V</span> shortcut to choose and insert recent clipboard contents into the text.",
     "class" : "editor"
 }

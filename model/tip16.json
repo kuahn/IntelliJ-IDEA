@@ -1,5 +1,5 @@
 {
-    "tip" : "파일에서 문자열을 찾을때, 최근이력을 이용하세요. 검색 패널이 이미 열려진 상태에서 다시한번 근래 대상들을 보기 위해 <span class=\"darkOrangeClr\">⌘F</span> 를 누르세요",
+    "tip" : "파일에서 문자열을 찾을때, 최근이력을 이용하세요. 검색 패널이 이미 열려진 상태에서 다시한번 근래 대상들을 보기 위해 <span class=\"darkOrangeClr\" class=\"shrtct\">⌘F</span> 를 누르세요",
     "org" : "When searching for a text string in a file, use recent history: with the search pane already open, press ⌘F once again to show the list of recent entries.",
     "imgs" : [
         {

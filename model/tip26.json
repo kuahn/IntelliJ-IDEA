@@ -1,5 +1,5 @@
 {
-    "tip" : "<span class=\"darkOrangeClr\">⌃↑</span> 와 <span class=\"darkOrangeClr\">⌃↓</span> 키로 메소드들 사이를 빠르게 이동할 수 있습니다.",
+    "tip" : "<span class=\"darkOrangeClr\" class=\"shrtct\">⌃↑</span> 와 <span class=\"darkOrangeClr\" class=\"shrtct\">⌃↓</span> 키로 메소드들 사이를 빠르게 이동할 수 있습니다.",
     "org" : "Use <span class=\"darkOrangeClr\">⌃↑</span> and <span class=\"darkOrangeClr\">⌃↓</span> keys to quickly move between methods in the editor.",
     "class" : "editor"
 }

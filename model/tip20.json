@@ -1,5 +1,5 @@
 {
-    "tip" : "에디터의 커서위치의 클래스나 메소드의 사용에 대한 문서를 퀵뷰 하려면  <span class=\"darkOrangeClr\">⌃J (View | Quick Documentation).</span> 를 누르면 됩니다.",
+    "tip" : "에디터의 커서위치의 클래스나 메소드의 사용에 대한 문서를 퀵뷰 하려면  <span class=\"darkOrangeClr\"><span class=\"shrtct\">⌃J</span> (View | Quick Documentation).</span> 를 누르면 됩니다.",
     "org" : "To quickly see the documentation for the class or method used at the editor's caret, press  <span class=\"darkOrangeClr\">⌃J (View | Quick Documentation).</span>",
     "imgs" : [
         {

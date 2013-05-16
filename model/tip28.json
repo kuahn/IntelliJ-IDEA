@@ -1,6 +1,6 @@
 {
-    "tip" : "<span class=\"darkOrangeClr\">⌃⇧J</span> 단축키로 두개의 라인을 하나로, 필요 없는 공백을 당신의 코드스타일에 맞게 제거해줄 수 있습니다.",
-    "org" : "<span class=\"darkOrangeClr\">⌃⇧J</span> shortcut joins two lines into one and removes unnecessary space to match your code style.",
+    "tip" : "<span class=\"darkOrangeClr\" class=\"shrtct\">⌃⇧J</span> 단축키로 두개의 라인을 하나로, 필요 없는 공백을 당신의 코드스타일에 맞게 제거해줄 수 있습니다.",
+    "org" : "<span class=\"darkOrangeClr\" class=\"shrtct\">⌃⇧J</span> shortcut joins two lines into one and removes unnecessary space to match your code style.",
     "imgs": [
         {
             "src": "img/2013-04-30_15-23-49.jpg"

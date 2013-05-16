@@ -1,5 +1,5 @@
 {
-    "tip" : "HTML 에서 바로 CSS 이름변경이 가능합니다. 이름을 바꾸자 하는 셀렉터에 커서를 놓고 <span class=\"darkOrangeClr\">⇧F6 (Refactor | Rename)</span> 를 눌러주세요. ",
+    "tip" : "HTML 에서 바로 CSS 이름변경이 가능합니다. 이름을 바꾸자 하는 셀렉터에 커서를 놓고 <span class=\"darkOrangeClr\"><span class=\"shrtct\">⇧F6</span> (Refactor | Rename)</span> 를 눌러주세요. ",
     "org" : "It is possible to rename CSS selectors directly from HTML. Position the caret at the selector to be renamed and press ⇧F6 (Refactor | Rename).",
     "imgs": [
         {

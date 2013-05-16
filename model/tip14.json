@@ -1,5 +1,5 @@
 {
-    "tip" : "커서를 클래스에 선언된 implements 키워드에 두고, <span class=\"darkOrangeClr\">⇧⌘F7</span> 를 누르고 원하는 인터페이스를 리스트에서 고르면, 클래스에서 구현된 인터페이스의 모든 메소드를 볼 수 있습니다. ",
+    "tip" : "커서를 클래스에 선언된 implements 키워드에 두고, <span class=\"darkOrangeClr\" class=\"shrtct\">⇧⌘F7</span> 를 누르고 원하는 인터페이스를 리스트에서 고르면, 클래스에서 구현된 인터페이스의 모든 메소드를 볼 수 있습니다. ",
     "org" : "You can view all methods of the implemented interfaces in a class, if you place the caret at the implements keyword in the class declaration, press ⇧⌘F7, and select the desired interface from the list:",
     "imgs" : [
         {
