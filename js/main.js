@@ -1,6 +1,7 @@
 var Tip = {
     params : {
-        totalCount : undefined
+        totalCount : undefined,
+        pltfm : undefined
     },
     showTip : function(tipNum) {
         if ( !tipNum ) {
@@ -23,6 +24,7 @@ var Tip = {
             var tip = data.tip || ""
             ,   org = data.org
             ,   imgs = data.imgs || []
+            ,   shrtct = data.shortcuts
             ,   conts = ""
             ,   img
             ,   src
@@ -41,26 +43,6 @@ var Tip = {
                 conts += '<img src="'+ src +'"/>' + nl;
             }
 
-              // 플랫폼별 단축키 제공 기능 구현 중.
-//            $(tip).find('#shrtct').text(function() {
-//                var txt = $(this).text()
-//                ,   pltfm = navigator.platform.toLowerCase() || undefined;
-//
-//                if ( !navigator.platform ) {
-//                    return txt;
-//                }
-//
-//                if ( pltfm.indexOf("mac") > -1 ) {
-//
-//                } else if ( pltfm.indexOf("linux") > -1 ) {
-//
-//                } else if ( pltfm.indexOf("win") > -1 ) {
-//
-//                }
-//
-//                return txt;
-//            });
-
             if ( org ) {
                 org = '<span id="org" class="hidden">(' + org + ')</span>';
             } else {
@@ -68,6 +50,26 @@ var Tip = {
             }
 
             $('#content').html(tip).append(org).append("<br/>" + conts).attr('data-tipId',tipNum);
+
+            // 플랫폼별 단축키 제공
+            $('#content').find('#shrtct').text(function() {
+                var txt = $(this).text()
+                ,   pltfm = Tip.params.pltfm || navigator.platform.toLowerCase();
+
+                if ( !navigator.platform ) {
+                    return txt;
+                }
+
+                if ( pltfm.indexOf("mac") > -1 ) {
+                    txt = shrtct.mac;
+                } else if ( pltfm.indexOf("linux") > -1 ) {
+                    txt = shrtct.linux;
+                } else if ( pltfm.indexOf("win") > -1 ) {
+                    txt = shrtct.windows;
+                }
+
+                return txt;
+            });
 
             if ( $('input[name="latestTipShow"]').is(':checked') ) {
                 docCookies.setItem("latestTipNum", $('#content').attr('data-tipId'));

@@ -6,16 +6,10 @@
             "src": "img/2013-04-03_10-21-57.jpg"
         }
     ],
-    "shortcuts" : [
-        {
-            "mac": "⌥↖"
-        },
-        {
-            "linux": "Alt+F7"
-        },
-        {
-            "windows": "Alt+F7"
-        }
-    ],
+    "shortcuts" : {
+        "mac": "⌥↖",
+        "linux": "Alt+F7",
+        "windows": "Alt+F7"
+    },
     "class" : "toolbar"
 }
