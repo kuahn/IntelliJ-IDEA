@@ -1,0 +1,9 @@
+{
+    "tip" : "SUPER 메서드나 인터페이스로 바로 가려면 <span class=\"darkOrangeClr\" class=\"shrtct\">⌘U</span>를 사용하면 됩니다.",
+    "shortcuts" : {
+        "mac": "⌘U",
+        "linux": "Ctrl+U",
+        "windows": "Ctrl+U"
+    },
+    "class" : "editor"
+}
