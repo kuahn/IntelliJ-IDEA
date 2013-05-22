@@ -90,7 +90,7 @@ var Tip = {
         ,   tipNum = 1;
 
         $.ajax({
-            url : "properties.json?201305061058",
+            url : "properties.json?201305221035",
             dataType : "json",
             async : false
         }).done(function (data) {
