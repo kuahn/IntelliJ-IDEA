@@ -1,0 +1,5 @@
+{
+    "tip" : "메인메뉴의 각각의 아이콘들에 대한 학습을 돕기위해서, 마우스 포인트를 아이콘에 가져다 놓으면 간단한 설명이 아래 상태바에 나타납니다.",
+    "org" : "To help you learn the purpose of each item in the main menu, its short description is shown in the status bar at the bottom of the application frame when you position the mouse pointer over it.",
+    "class" : "toolbar"
+}
