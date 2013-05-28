@@ -1,0 +1,10 @@
+{
+    "tip" : "<span class=\"darkOrangeClr\">Go to Class, Go to Symbol</span> 그리고 <span class=\"darkOrangeClr\">Go to File</span> 팝업에서의 패턴검색을 위해 <span class=\"darkOrangeClr\">*</span> 와 공백을 사용하세요.<br/><span class=\"darkOrangeClr\">*</span> 는 모든 문자를 대신 합니다.<br/>마지막의 스페이스는 패턴의 종료를 의미하고, 선두 문자열은 단지 접두사가 아니라 전체 패턴으로 간주됩니다.제안된 검색목록은 그에 맞춰 줄어듭니다. (역주. 사용자가 입력한 문자열에 맞춰 범위가 좁혀짐)",
+    "org" : "For the pattern search in the <span class=\"darkOrangeClr\">Go to Class, Go to Symbol</span> and <span class=\"darkOrangeClr\">Go to File</span> pop-up frames, use <span class=\"darkOrangeClr\">*</span> and space symbols.<br/><span class=\"darkOrangeClr\">*</span> stands for any symbol.<br/>Space at the end means the end of a pattern, and the preceding string will be considered not just a prefix but a whole pattern. The list of the suggested names will be reduced accordingly.",
+    "imgs" : [
+        {
+            "src": "img/2013-05-28_09-32-26.png"
+        }
+    ],
+    "class" : "toolbar"
+}
