@@ -1,0 +1,10 @@
+{
+    "tip" : "static 으로 선언된 내부클래스에서 F6을 눌러서 리팩토링을 호출할때, 상위레벨 클래스로 만들것인지, 아니면 클래스를 새로 생성할것인지에 대한 선택을 할 수 있습니다.",
+    "org" : "When you invoke the Move refactoring (<span class=\"darkOrangeClr\">F6</span>) on an inner class that is declared <span class=\"darkOrangeClr\">static</span>, you are provided with an option to either make it a top-level class, or move it to another class.",
+    "imgs" : [
+        {
+            "src": "img/2013-05-31_09-42-08.png"
+        }
+    ],
+    "class" : "toolbar"
+}
