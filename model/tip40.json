@@ -1,0 +1,10 @@
+{
+    "tip" : "완성되지 않은 구문에서도 변수 분리(추출) 리팩토링을 이용할 수 있습니다. 에디터에서 필요한 블럭을 선택후 <span class=\"darkOrangeClr\">⌥⌘V</span> 를 눌러주시면 됩니다.",
+    "org" : "You can use the Extract Variable refactoring even on incomplete statements. Just select the necessary block in the editor and press <span class=\"darkOrangeClr\">⌥⌘V</span>.",
+    "imgs" : [
+        {
+            "src": "img/2013-06-04_09-21-49.png"
+        }
+    ],
+    "class" : "toolbar"
+}
