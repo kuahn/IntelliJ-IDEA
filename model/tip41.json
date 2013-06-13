@@ -1,0 +1,10 @@
+{
+    "tip" : "편집화면에서 특정 메소드나 필드변수를 간단히 이용하기 위해, <span class=\"darkOrangeClr\">⌥⇧⌘N (Navigate | Symbol)</span> 키를 누르고 그 이름을 타이핑하면 됩니다. 심볼의 드롭다운 리스트중 하나를 고르시면 됩니다.",
+    "org" : "To open any particular method or field in the editor quickly, press <span class=\"darkOrangeClr\">⌥⇧⌘N (Navigate | Symbol)</span> and start typing its name. Choose the symbol from a drop-down list that appears.",
+    "imgs" : [
+        {
+            "src": "img/2013-06-13_09-16-24.png"
+        }
+    ],
+    "class" : "toolbar"
+}
