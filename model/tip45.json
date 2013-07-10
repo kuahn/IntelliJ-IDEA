@@ -1,0 +1,14 @@
+{
+    "tip" : "최근에 작업한 파일 목록을 보려면 <span class=\"darkOrangeClr\" class=\"shrtct\">⌘E</span> 단축키를 사용할 수 있습니다.",
+    "shortcuts" : {
+        "mac": "⌘E",
+        "linux": "Ctrl+E",
+        "windows": "Ctrl+E"
+    },
+    "imgs" : [
+        {
+            "src": "img/2013-07-10_11-40-29.png"
+        }
+    ],
+    "class" : "navigation"
+}
