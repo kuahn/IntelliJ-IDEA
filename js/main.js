@@ -114,10 +114,10 @@ var Tip = {
     },
     getParam : function( key ) {
         var	nowAddress = unescape(location.href)
-            , parameters = ( nowAddress.slice(nowAddress.indexOf('?')+1, nowAddress.length) ).split('&')
-            , rtnVal = ''
-            , i
-            , lth;
+        ,   parameters = ( nowAddress.slice(nowAddress.indexOf('?')+1, nowAddress.length) ).split('&')
+        ,   rtnVal = ''
+        ,   i
+        ,   lth;
 
         for ( i = 0, lth = parameters.length; i < lth; i++ ) {
             var paramKey = parameters[i].split('=')[0];
