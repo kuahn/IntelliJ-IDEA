@@ -1,5 +1,5 @@
 {
-    "tip" : "클래스, 메서드, 변수가 선언된 모든 위치의 이름을 일괄로 쉽게 변경 할 수 있다. 편집창내 변경을 원하는 위치에 커서를 두고 <span class=\"darkOrangeClr\">Shift+F6</span> (Refactor | Rename) 키보드를 입력한다. 활성화된 다이얼로그창에 새 이름을 입력한 후 Enter를 입력해보자. 변경하고자 하는 변수의 모든 위치로 이동, 확인 할 수 있고, Do Refactor 버튼을 누르면 이름변경 작업을 마치게 된다.",
+    "tip" : "클래스, 메서드, 변수가 선언된 어떤 위치에서도 이름을 일괄적으로 쉽게 변경 할 수 있습니다. 편집창내 변경을 원하는 위치에 커서를 두고 <span class=\"darkOrangeClr\">Shift+F6</span> (Refactor | Rename) 단축키를 입력합니다. 활성화된 다이얼로그창에 새 이름을 입력한 후 Enter를 입력하면 변경하고자 하는 변수의 모든 위치로 이동해서 확인 할 수 있고 Do Refactor 버튼을 누르면 이름 변경 작업을 마치게 됩니다.",
     "org" : "You may easily rename your classes, methods and variables with automatic correction of all places where they are used. To try it, position the editor caret at any symbol and press <span class=\"darkOrangeClr\">Shift+F6</span> (Refactor | Rename). Type the new name in the dialog that appears and press Enter. You may browse all places where the variable is used and then press the Do Refactor button to finish the renaming operation.",
     "imgs" : [
         {
