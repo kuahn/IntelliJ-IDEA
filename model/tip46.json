@@ -1,0 +1,14 @@
+{
+    "tip" : "이클립스(ctrl+o | cmd+o)처럼 빠르게 파일 구조를 보거나 이동하려면 <span class=\"darkOrangeClr\" class=\"shrtct\">⌘F12</span>를 사용하세요.",
+    "shortcuts" : {
+        "mac": "⌘F12",
+        "linux": "Ctrl+F12",
+        "windows": "Ctrl+F12"
+    },
+    "imgs" : [
+        {
+            "src": "img/2013-08-01_10-39-04.png"
+        }
+    ],
+    "class" : "navigation"
+}
