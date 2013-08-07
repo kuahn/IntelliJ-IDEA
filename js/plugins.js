@@ -88,5 +88,6 @@ var docCookies = {
         $('#tip').css('margin','0 4% 4% 4%');
         $('#contributor').css('margin','1% 4% 5% 4%');
         $('.medium').css('padding','.4em 1em .42em');
+        $('#banner').html('<a href="http://www.jetbrains.com/idea/" style="position: relative;display:block; width:120px; height:30px; border:0; margin:0;padding:0;text-decoration:none;text-indent:0;"><span style="margin: 0;padding: 0;position: absolute;top: -1px;left: 29px;font-size: 9px;cursor:pointer;  background-image:none;border:0;color: #0d3a9e; font-family: trebuchet ms,arial,sans-serif;font-weight: normal;text-align:left;">Can\'t code without</span><img src="http://www.jetbrains.com/idea/opensource/img/all/banners/idea120x30_white.gif" alt="The best Java IDE" border="0"/></a>');
     }
 }());

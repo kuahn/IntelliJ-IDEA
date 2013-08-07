@@ -56,7 +56,7 @@ var Tip = {
                 var txt = $(this).text()
                 ,   pltfm = Tip.params.pltfm || navigator.platform.toLowerCase();
 
-                if ( !navigator.platform ) {
+                if ( !pltfm ) {
                     return txt;
                 }
 

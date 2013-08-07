@@ -43,7 +43,7 @@ img {
     margin: 0 2% 0 0;
 }
 
-#contributor img {
+.contributorPic {
     width: 25px;
     border: 1px solid #181818;
 }
