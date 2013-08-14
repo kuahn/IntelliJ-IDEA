@@ -1,0 +1,10 @@
+{
+    "tip" : "편집하고 있는 현재의 위치(클래스, 파일, 메서드 또는 필드)를 다른 뷰(Project View, Structure View)를 통해 선택하고자 한다면, <span class=\"darkOrangeClr\">Alt+F1(View|Select In)</span> 키를 누르시면 됩니다.",
+    "org" : "To quickly select the currently edited element (class, file, method or field) in any view (Project view, Structure view or other), press <span class=\"darkOrangeClr\">Alt+F1</span> (View | Select In).",
+    "imgs" : [
+        {
+            "src": "img/2013-08-14_14-36-36.png"
+        }
+    ],
+    "class" : "toolbar"
+}
