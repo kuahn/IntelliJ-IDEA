@@ -1,10 +1,5 @@
 {
     "tip" : "현재 편집중인 파일내에서 빠르게 이동하는 기능 <span class=\"darkOrangeClr\">Ctrl+F12</span>(View | File Structure). 현재 클래스의 구조를 리스트로 보여줍니다. 리스트내 이동할 위치를 선택하고 Enter 또는 F4를 누르면 이동합니다. 이동할 위치를 타이핑함으로서, 쉽게 이동할 위치를 선택 할 수 있습니다.",
     "org" : "You can quickly navigate in the currently edited file with <span class=\"darkOrangeClr\">Ctrl+F12</span> (View | File Structure).It shows the list of members of the current class. Select an element you want to navigate to and press the Enter key or the F4 key. To easily locate an item in the list, just start typing its name.",
-    "imgs" : [
-        {
-            "src": ""
-        }
-    ],
     "class" : "toolbar"
 }
