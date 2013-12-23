@@ -1,0 +1,5 @@
+{
+    "tip" : "두개의 디렉토리를 비교하고 싶다면 Project 뷰에서 하나 이상을 선택한 후 <span class=\"darkOrangeClr\">⌘D</span> 키를 누르면 됩니다.",
+    "org" : "To compare two directories, select one or both of them in the Project view and press <span class=\"darkOrangeClr\">⌘D</span>.",
+    "class" : "Project view"
+}
