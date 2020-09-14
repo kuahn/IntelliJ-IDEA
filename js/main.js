@@ -40,7 +40,7 @@ var Tip = {
                     nl = (img.nl === false ? "" : "<br/>");
                 }
 
-                conts += '<img src="'+ src +'" width="500"/>' + nl;
+                conts += '<img src="'+ src +'" width="600"/>' + nl;
             }
 
             if ( org ) {
